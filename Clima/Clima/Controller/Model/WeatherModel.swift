@@ -1,10 +1,6 @@
 //
 //  WeatherModel.swift
-//  Clima
-//
-//  Created by csuftitan on 10/31/23.
-//  Copyright © 2023 App Brewery. All rights reserved.
-//
+
 
 import Foundation
 

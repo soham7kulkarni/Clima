@@ -1,10 +1,6 @@
 //
 //  ViewController.swift
-//  Clima
-//
-//  Created by Angela Yu on 01/09/2019.
-//  Copyright © 2019 App Brewery. All rights reserved.
-//
+
 
 import UIKit
 import CoreLocation
@@ -78,6 +74,7 @@ extension WeatherViewController: WeatherManagerDelegate{
     func didUpdateWeather(weather: WeatherModel){
         DispatchQueue.main.async {
             self.temperatureLabel.text = weather.temperatureString
+            print(weather.conditionName)
             self.conditionImageView.image = UIImage(systemName: weather.conditionName)
             self.cityLabel.text = weather.cityName
         }

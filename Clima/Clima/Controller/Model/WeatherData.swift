@@ -1,10 +1,6 @@
 //
 //  WeatherData.swift
-//  Clima
-//
-//  Created by csuftitan on 10/30/23.
-//  Copyright © 2023 App Brewery. All rights reserved.
-//
+
 
 import Foundation
 
